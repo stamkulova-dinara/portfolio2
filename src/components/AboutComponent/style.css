@@ -1,0 +1,84 @@
+.container {
+  padding: 50px;
+}
+.boxs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box__title {
+  font-family: "Urbanist", sans-serif;
+  color: #076470;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.box__content {
+  width: 600px;
+}
+
+.box__content p {
+  font-size: 18px;
+  color: #101c1d;
+}
+
+button {
+  margin-top: 30px;
+}
+
+.about-box {
+  margin-right: 25px;
+}
+
+.skills div {
+  display: flex;
+  gap: 100px;
+}
+
+.skills ul {
+  margin-bottom: 1rem;
+}
+
+.skills ul li {
+  line-height: 26px;
+  font-size: 16px;
+}
+.project {
+    margin-left: 5px;
+}
+@media screen and (max-width: 992px) {
+  .about-box {
+    margin-right: 0;
+  }
+  .box__content p {
+    font-size: 16px;
+  }
+  .boxs {
+    flex-direction: column;
+  }
+  .boxs_theme {
+    text-align: center;
+  }
+  .box__content {
+    width: 90%;
+  }
+  .box1 {
+    text-align: center;
+  }
+  .box__title {
+    margin: 6px;
+  }
+  .container {
+    padding: 15px;
+  }
+  .skills div {
+    gap: 35px;
+    justify-content: center;
+  }
+  ul {
+    width: 255px;
+  }
+  .skills ul li {
+    font-size: 14px;
+  }
+}
