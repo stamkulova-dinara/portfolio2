@@ -55,7 +55,10 @@ textarea:focus {
   box-shadow: 0 0 5px rgb(71, 159, 183);
   border: 1px solid rgb(72, 161, 185);
 }
-
+.succes {
+    margin-top: 5px;
+    color: green;
+}
 .contact-box {
   margin: 30px 100px 0 0;
 }
@@ -67,7 +70,13 @@ textarea:focus {
 .contact-box__email:hover {
     color: #dab694;
 }
-
+.contact__content__form__err {
+    color: red;
+    font-size: 12px;
+}
+.err {
+    border: 1px solid red !important;
+}
 @media screen and (max-width:992px) {
     .contact-box {
         margin: 0;

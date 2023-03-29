@@ -1,6 +1,7 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import "./style.css";
 
@@ -9,7 +10,10 @@ export const Header = () => {
   return (
     <header className={`${mobile ? "mob-header" : "header"}`}>
       <nav>
-        <div className="header__logo">S D</div>
+        <Link to={"/"}>
+          <div className="header__logo"> S D</div>
+        </Link>
+
         <ul className="header__menu">
           <li className="header__menu__item">
             <NavLink

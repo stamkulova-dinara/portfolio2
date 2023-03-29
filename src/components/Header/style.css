@@ -70,6 +70,7 @@ nav {
   nav {
     flex-direction: column;
     gap: 5px;
+    align-items: start;
   }
   .header .header__menu {
     display: none;
