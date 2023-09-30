@@ -3,23 +3,25 @@ header {
   display: flex;
   gap: 25px;
   /* align-items: center; */
-  background-color: #076470;
+  background-color: #43088a;
   padding: 18px;
 }
 
 .header__logo {
   border-radius: 50%;
-  border: 1px solid #dab694;
+  /* border: 1px solid #dab694; */
+  border: 1px solid #FFFFFF;
   padding: 5px;
   font-family: "Tangerine", cursive;
-  color: #dab694;
+  /* color: #dab694; */
+  color: #FFFFFF;
   font-size: 26px;
 }
 nav {
   display: flex;
   gap: 25px;
   align-items: center;
-  background-color: #076470;
+  background-color: #43088a;
 }
 .header__menu {
   display: flex;
@@ -28,15 +30,17 @@ nav {
   font-weight: 300;
 }
 .header__menu__item a {
-  color: #dab694;
+  /* color: #dab694; */
+  color: #FFFFFF;
 }
 
 .active {
-  color: black !important;
+  color: rgb(161, 161, 161) !important;
 }
 
 .header__menu__item a:hover {
-  color: rgb(35, 32, 32);
+  color: rgb(188, 186, 186);
+  /* color: #FFFFFF; */
 }
 
 .header__mobile {

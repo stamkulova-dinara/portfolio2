@@ -11,7 +11,7 @@ export const Header = () => {
     <header className={`${mobile ? "mob-header" : "header"}`}>
       <nav>
         <Link to={"/"}>
-          <div className="header__logo"> S D</div>
+          <div className="header__logo"> N B</div>
         </Link>
 
         <ul className="header__menu">

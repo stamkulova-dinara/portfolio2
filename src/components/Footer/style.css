@@ -1,5 +1,5 @@
 footer {
-    background-color: #dab694;
+    background-color: #43088a;
     padding: 15px 120px;
     border-radius: 4px;
     display: flex;
@@ -9,7 +9,7 @@ footer {
 
 .footer__box {
     display: flex;
-    color: #101c1d;
+    color: #FFFFFF;
 }
 
 .footer__box__title {
@@ -21,6 +21,7 @@ footer {
 .footer__box__text {
     font-size: 18px;
     margin-bottom: 0;
+    color: #bebaba;
 }
 
 .footer__box__social-icons svg {
@@ -29,7 +30,7 @@ footer {
     margin: 5px 15px;
     padding: 15px;
     border-radius: 10px;
-    background-color: #d8d1d1;
+    background-color: #FFFFFF;
     font-size: 20px;
 }
 

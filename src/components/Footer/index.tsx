@@ -12,19 +12,19 @@ export const Footer = () => {
           <p className="footer__box__text">Let's work together!</p>
         </div>
         <div className="footer__box__social-icons">
-          <a href="mailto:dinarastamkulova4@gmail.com">
+          <a href="mailto:nurzadabaktybekovna01@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
-          <a href="tel:+996771139865">
+          <a href="tel:+12067171113">
             <FontAwesomeIcon icon={faMobileScreen} />
           </a>
           <a
-            href="https://www.linkedin.com/in/dinara-stamkulova/"
+            href="https://www.linkedin.com/in/nurzada-baktybekovna/"
             target="_blank"
           >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
-          <a href="https://github.com/stamkulova-dinara" target="_blank">
+          <a href="https://github.com/Nurzada13" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>

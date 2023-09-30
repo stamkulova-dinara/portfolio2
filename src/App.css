@@ -15,9 +15,9 @@ hr {
 .component-header {
   background: linear-gradient(
     to bottom,
-    #076470 90%,
-    #d8d1d1 90% 93%,
-    #dab694 93%
+    #43088a 90%,
+    #43088a 90% 93%,
+    #43088a 93%
   );
   padding: 50px;
   display: flex;
@@ -28,7 +28,8 @@ hr {
 }
 .component-header__title {
   font-family: "Tangerine", cursive;
-  color: #dab694;
+  /* color: #dab694; */
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 72px;
 }
@@ -36,7 +37,7 @@ hr {
 h3 {
   font-size: 28px;
   font-weight: 500;
-  color: #076470;
+  color: #FFFFFF;
 }
 
 .right-box {
@@ -46,7 +47,7 @@ h3 {
 }
 
 p {
-  color: #101c1d;
+  color: #a6a6a6;
   font-size: 18px;
 }
 

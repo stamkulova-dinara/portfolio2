@@ -1,26 +1,29 @@
 import { Button } from "../Button";
 import "./style.css";
+import s from "../../assets/Nurzada's Resume.pdf"
 
 export const AboutContent = () => {
   return (
     <div className="container">
       <div className="boxs box1">
         <div className="boxs_theme">
-          <h3 className="box__title">My story</h3>
+          <h3 className="box__title">About me</h3>
         </div>
         <div className="box__content">
           <p>
-            I've been working as a frontend developer in IT for more than 1 year
-            <br />
-            <br />I learned React, Redux, Js, Html, CSS on the course Later,
-            while working at work, I learned Typescript, webpack, next js,
-            graphQL, apollo on my own.
+            {/* I've been working as a frontend developer in IT for more than 1 year
+            <br /> 
+            <br /> */}I'm a Front-end developer with 1,5 years of real-world project experience, including building reusable and gorgeous UI components using
+Agile Methodologies
             <br /> <br />
             I'm tech-savvy person with a strong interest in frontend development
             and an ability to learn and quickly adapt to emerging new
             technologies
           </p>
-          <Button children="View my CV/Resume" />
+          {/* <Button children="Download my CV/Resume"></Button> */}
+          <button className="btn">
+          <a href={s} download>Download my CV/Resume</a>
+          </button>
         </div>
       </div>
       <hr />
@@ -32,26 +35,21 @@ export const AboutContent = () => {
           <div>
             <p>Website Development</p>
             <ul>
-              <li>HTML5 / Pug</li>
+              <li>HTML5 </li>
               <li>JavaScript</li>
               <li>React</li>
               <li>Responsive</li>
-              <li>Redux / Redux toolkit / RTK Query </li>
-              <li>TypeScript</li>
-              <li>Next js</li>
-              <li>CSS3 / CSS modules / SASS / SCSS</li>
+              <li>Redux / Redux toolkit </li>
+              <li>CSS3 / SASS / SCSS</li>
               <li>Styled components</li>
               <li>Bootstrap / Material UI / Ant design</li>
               <li>Rest API / Axios</li>
-              <li>GraphQL / Apollo</li>
             </ul>
           </div>
           <div>
             <p>Project Management</p>
             <ul className="project">
               <li>Agile</li>
-              <li>Lean</li>
-              <li>Waterfall</li>
             </ul>
           </div>
         </div>

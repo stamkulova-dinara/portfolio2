@@ -1,5 +1,5 @@
 .btn {
-    background-color: #d8d1d1;
+    background-color: #FFFFFF;
     padding: 10px 20px;
     border: none;
     color: #101c1d;;
@@ -11,6 +11,6 @@
 
 .btn:hover {
     background-color: #101c1d;
-    color: #dab694;
+    color: #FFFFFF;
     cursor: pointer;
 }

@@ -9,7 +9,7 @@ export const AboutHeader = () => {
       </div>
       <div className="about-box">
         <p>
-          Hi, I'm Dinara, a front-end developer, based in Bishkek, Kyrgyzstan.
+        Hi! My name is Nurzada. I am a front-end developer.
         </p>
         <Link to={"/portfolio"}>
           <Button children="View my work" />

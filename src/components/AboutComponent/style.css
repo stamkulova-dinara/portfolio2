@@ -8,11 +8,18 @@
 
 .box__title {
   font-family: "Urbanist", sans-serif;
-  color: #076470;
+  color: #43088a;
   font-size: 28px;
   font-weight: 500;
 }
 
+.btn a {
+  color: #101c1d;
+}
+
+.btn:hover a {
+  color: white;
+}
 .box__content {
   width: 600px;
 }
@@ -44,7 +51,7 @@ button {
   font-size: 16px;
 }
 .project {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 @media screen and (max-width: 992px) {
   .about-box {

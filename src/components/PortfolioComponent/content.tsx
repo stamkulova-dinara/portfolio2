@@ -1,27 +1,27 @@
 import { ProjectsCard } from "../Projects/component/ProjectsCard";
-import business from "../../assets/screen.png";
+import math from "../../assets/math-game.jpg";
 import seoflow from "../../assets/seoflow.png";
 import happy from "../../assets/happy.png";
-import pomodoro from "../../assets/pomodoro.png";
+import countries from "../../assets/countries.jpg";
 import "./style.css";
 
 export const PortfolioContent = () => {
   return (
     <div className="portfolio-con">
         <div className="portfolio-con__theme">
-            <h3>My pet projects</h3>
+            <h3 className="portfolio_title">My personal projects</h3>
         </div>
     
       <ProjectsCard
-        link="https://tiny-cascaron-f55b43.netlify.app/"
-        photo={business}
-        title="Бизнес практика"
+        link="https://polite-griffin-e2d32a.netlify.app/"
+        photo={math}
+        title="Math game"
         descB={true}
-        desc="Using live data via an API this application can recall the weather conditions from user inputted cities or by the user's current location coordinates."
-        tools="Built using Pug, SCSS, JavaScript, Webpack and Bootstrap."
+        desc="Math Game - online that practice math skills using fun interactive content."
+        tools="Built using HTML, CSS, JavaScript, Webpack."
       />
       <ProjectsCard
-        link="https://stamkulova-dinara.github.io/SEOFlow/"
+        link="https://nurzada13.github.io/SEOFlow/"
         photo={seoflow}
         title="SEOFlow"
         descB={true}
@@ -38,12 +38,12 @@ export const PortfolioContent = () => {
         tools="Built using HTML, CSS, JavaScript and Webpack."
       />
        <ProjectsCard
-        link="https://stamkulova-dinara.github.io/Pomodoro-App/"
-        photo={pomodoro}
-        title="Pomodoro"
+        link="https://gentle-dodol-2c4f7c.netlify.app/"
+        photo={countries}
+        title="Countries"
         descB={true}
-        desc="An analogue of the pomodoro time managment"
-        tools="Built using JavaScript, CSS, React and Redux."
+        desc=""
+        tools="Built using Typescript, CSS, React and Apollo."
         left={true}
       />
     </div>

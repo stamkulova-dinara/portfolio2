@@ -51,7 +51,7 @@ export const ContactComponent = () => {
     <div className="contact">
       <div className="contact__content">
         <form onSubmit={formik.handleSubmit}>
-          <h3>Get in touch</h3>
+          <h3 className="contact_title">Get in touch</h3>
           <div className="contact__content__form">
             <label htmlFor="firstname">First name</label>
             <input
